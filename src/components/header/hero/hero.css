@@ -1,0 +1,6 @@
+
+.hero__container{
+    color: var(--color-secondry);
+    text-align: center;
+    margin-top: 3rem;
+}
