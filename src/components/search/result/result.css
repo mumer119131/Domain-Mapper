@@ -1,0 +1,76 @@
+
+.result__container{
+    margin: 5rem 3rem 3rem;
+    background-color: var(--color-secondry);
+    padding: 4rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 3px 6.5px 30px 2px #ffc800;
+    -moz-box-shadow: 3px 6.5px 30px 2px #ffc800;
+    box-shadow: 3px 6.5px 30px 2px #ffc800;
+    overflow-x: auto;
+    width: calc(100%);
+}
+
+
+
+table{
+    border-collapse: collapse;
+    background-color: var(--color-primary-variant);
+    -webkit-box-shadow: 3px 3px 24.5px -1.5px #3e4e50;
+    -moz-box-shadow: 3px 3px 24.5px -1.5px #3e4e50;
+    box-shadow: 3px 3px 24.5px -1.5px #3e4e50;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+table thead tr th{
+    padding: 1.5rem;
+}
+table,tr,th,td{
+    padding: 0.5rem;
+    color: var(--color-secondry);
+}
+table tr{
+    transition: var(--transition);
+}
+table tbody tr:nth-child(odd){
+    background-color: var(--color-secondry);
+}
+table tbody tr:nth-child(odd) td{
+    color: var(--color-primary) !important;
+}
+table tbody tr:hover{
+    background-color: var(--color-primary);
+}
+table tbody tr:hover td{
+    color: var(--color-secondry) !important;
+}
+table th{
+    font-weight: 600;
+    text-align: left;
+}
+
+
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width:1024px){
+    
+    
+    .result__container{
+        width: calc(100% - 2rem);
+        margin: 3rem 2rem;
+        padding: 2rem;
+        max-width: min-content;
+    }
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width:600px) {
+    .result__container{
+        width: calc(100% - 2rem);
+        margin: 3rem 2rem;
+        padding: 2rem;
+        max-width: min-content;
+    }
+}

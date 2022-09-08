@@ -32,3 +32,18 @@ nav ul li .join{
     color: var(--color-primary);
     font-weight: 600;
 }
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width:1024px){
+
+    
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width:600px) {
+    nav ul {
+        display: none;
+    }   
+}
